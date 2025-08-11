@@ -33,6 +33,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        bt {
+            bindings = <&bt BT_NXT>;
+            key-positions = <5 18>;
+        };
     };
 
     macros {
