@@ -18,5 +18,9 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT
     default y
+# 単位は 1.25ms
+CONFIG_BT_MIN_CONN_INTERVAL=6   # 7.5ms
+CONFIG_BT_MAX_CONN_INTERVAL=6   # 7.5ms
+
 
 endif
