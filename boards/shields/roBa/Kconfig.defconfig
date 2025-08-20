@@ -8,9 +8,16 @@ config ZMK_SPLIT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-CONFIG_BT_MIN_CONN_INTERVAL=6   # 7.5ms
-CONFIG_BT_MAX_CONN_INTERVAL=6   # 7.5ms
-CONFIG_PMW3610_POLLING_RATE_250_SW=y
+
+config BT_MIN_CONN_INTERVAL
+    default 6
+
+config BT_MAX_CONN_INTERVAL
+    default 6
+
+config PMW3610_POLLING_RATE_250_SW
+    default y
+
 
 endif
 
