@@ -10,15 +10,19 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config BT_MIN_CONN_INTERVAL
+    int
     default 6
 
 config BT_MAX_CONN_INTERVAL
+    int
     default 6
 
 config PMW3610_POLLING_RATE_250_SW
+    bool
     default y
 
 endif
+
 
 if SHIELD_ROBA_L
 
