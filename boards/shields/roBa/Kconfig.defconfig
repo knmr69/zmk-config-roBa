@@ -9,11 +9,11 @@ config ZMK_SPLIT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config BT_MIN_CONN_INTERVAL
+#config BT_MIN_CONN_INTERVAL
     int
     default 6
 
-config BT_MAX_CONN_INTERVAL
+#config BT_MAX_CONN_INTERVAL
     int
     default 6
 
